@@ -6,6 +6,19 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
+  string count_short_char;
+  if (s1 < s2 && s1 < s3) {
+    count_short_char = s1;
+  }
+  if (s2 < s1 && s2 < s3){
+    count_short_char = s2;
+      }
+  if (s3 < s1 && s3 < s2) {
+    count_short_char = s3;
+  }
+  
+  cout << count_short_char << endl;
+  
 }
 
 void exercise_2(double A, double B, double C) {
