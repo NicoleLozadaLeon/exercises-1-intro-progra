@@ -9,20 +9,36 @@ void exercise_1(string s1, string s2, string s3) {
   string count_short_char;
   if (s1 < s2 && s1 < s3) {
     count_short_char = s1;
+    cout << count_short_char;
   }
-  if (s2 < s1 && s2 < s3){
+  else if (s2 < s1 && s2 < s3){
     count_short_char = s2;
+    cout << count_short_char;
       }
-  if (s3 < s1 && s3 < s2) {
+  else if (s3 < s1 && s3 < s2) {
     count_short_char = s3;
+    cout << count_short_char;
+  }
+  else {
+    cout << "hay palabras iguales" << endl;
   }
   
-  cout << count_short_char;
   
 }
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
+   double calcular_datos_raiz = B * B - 4 * A * C;
+    if (calcular_datos_raiz > 0) {
+        double calcular_positiva_fraccion = (-B + sqrt(discriminante)) / (2 * A);
+        double calcular_negativa_fraccion = (-B - sqrt(discriminante)) / (2 * A);
+        cout << calcular_datos_raiz << " " << calcular_negativa_fraccion << endl;
+    } else if (calcular_datos_raiz == 0) {
+        double calcular_raiz_cero = -B / (2 * A);
+        cout << calcular_raiz_cero << endl;
+    } else {
+        cout << "No se puede resolver, porque es una raiz negativa" << endl;
+    }
 }
 
 void exercise_3(int a, int b) {
