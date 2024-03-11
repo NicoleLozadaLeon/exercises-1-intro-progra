@@ -17,7 +17,7 @@ void exercise_1(string s1, string s2, string s3) {
     count_short_char = s3;
   }
   
-  cout << count_short_char << endl;
+  cout << count_short_char;
   
 }
 
