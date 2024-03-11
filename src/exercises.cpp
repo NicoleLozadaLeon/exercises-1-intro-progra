@@ -30,9 +30,9 @@ void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
    double calcular_datos_raiz = B * B - 4 * A * C;
     if (calcular_datos_raiz > 0) {
-        double calcular_positiva_fraccion = (-B + sqrt(discriminante)) / (2 * A);
-        double calcular_negativa_fraccion = (-B - sqrt(discriminante)) / (2 * A);
-        cout << calcular_datos_raiz << " " << calcular_negativa_fraccion << endl;
+        double calcular_positiva_fraccion = (-B + sqrt(calcular_datos_raiz)) / (2 * A);
+        double calcular_negativa_fraccion = (-B - sqrt(calcular_datos_raiz)) / (2 * A);
+        cout << calcular_positiva_fraccion << " " << calcular_negativa_fraccion << endl;
     } else if (calcular_datos_raiz == 0) {
         double calcular_raiz_cero = -B / (2 * A);
         cout << calcular_raiz_cero << endl;
