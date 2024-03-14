@@ -57,7 +57,7 @@ void exercise_3(int a, int b) {
         int result = A / B;
         cout << result;
     }
-    else if ( B == 0 or A == 0) {
+    else if ( B == 0 ) {
         cout << "Impossible";
     }
     else;
