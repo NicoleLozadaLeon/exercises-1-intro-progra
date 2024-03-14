@@ -28,10 +28,6 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-  int main() {
-    double A = 0;
-    double B = 4;
-    double C = 10;
     double calcular_datos_raiz = B * B - 4 * A * C;
     if (A == 0) {
        double calcular_ByC = -C / B;
@@ -46,9 +42,6 @@ void exercise_2(double A, double B, double C) {
         double calcular_raiz_cero = -B / (2 * A);
         cout << calcular_raiz_cero;
     } else;
-
-    return 0;
-}
 }
 
 void exercise_3(int a, int b) {
