@@ -58,6 +58,22 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
+      if (n>a && b>a) {
+        descuento = a * X/100;
+        costo_total = costo_total - descuento;
+        cout << costo_total;
+    }
+    else if (n>a && b>a) {
+        descuento = b * Y/100;
+        costo_total = costo_total - descuento;
+        cout << costo_total;
+    }
+    else if (n>a && n>b && b>a) {
+        descuento = b * Y/100;
+        costo_total = costo_total - descuento;
+        cout << costo_total;
+    }
+    else;
 }
 
 void exercise_5(char character) {
