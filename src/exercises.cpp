@@ -20,7 +20,7 @@ void exercise_1(string s1, string s2, string s3) {
     cout << count_short_char;
   }
   else {
-    cout << "hay palabras iguales" << endl;
+    cout << "hay palabras iguales" ;
   }
   
   
@@ -35,9 +35,9 @@ void exercise_2(double A, double B, double C) {
         cout << calcular_positiva_fraccion << " " << calcular_negativa_fraccion << endl;
     } else if (calcular_datos_raiz == 0) {
         double calcular_raiz_cero = -B / (2 * A);
-        cout << calcular_raiz_cero << endl;
+        cout << calcular_raiz_cero;
     } else {
-        cout << "No se puede resolver, porque es una raiz negativa" << endl;
+        cout << "No se puede resolver, porque es una raiz negativa";
     }
 }
 
