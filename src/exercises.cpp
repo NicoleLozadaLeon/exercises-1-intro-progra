@@ -46,7 +46,7 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-    if (a>0 && b>0) {
+    if (a > 0 && b > 0) {
         int result = a / b;
         cout << result << endl;
     }
