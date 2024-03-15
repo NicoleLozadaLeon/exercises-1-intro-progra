@@ -6,11 +6,6 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
-    string s1 = "c";
-    string s2 = "a";
-    string s3 = "b";
-    
-    // Write C++ code here
       string count_short_char;
   if (s1 < s2 && s1 < s3) {
     count_short_char = s1;
@@ -27,8 +22,6 @@ void exercise_1(string s1, string s2, string s3) {
   else {
     cout << "hay palabras iguales" ;
   }
-
-    return 0;
 }
   
   
