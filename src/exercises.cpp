@@ -6,7 +6,6 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
-int main() {
     string s1 = "c";
     string s2 = "a";
     string s3 = "b";
