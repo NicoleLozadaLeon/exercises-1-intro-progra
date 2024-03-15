@@ -29,13 +29,13 @@ void exercise_2(double A, double B, double C) {
     double calcular_datos_raiz = B * B - 4 * A * C;
     if (A == 0) {
        double calcular_ByC = -C / B;
-        cout << calcular_ByC;
+        cout << calcular_ByC << endl;
         
     }
     else if ( calcular_datos_raiz > 0 ) {
         double calcular_positiva_fraccion = (-B + sqrt(calcular_datos_raiz)) / (2 * A);
         double calcular_negativa_fraccion = (-B - sqrt(calcular_datos_raiz)) / (2 * A);
-        cout << calcular_positiva_fraccion << " " << calcular_negativa_fraccion;
+        cout << calcular_positiva_fraccion << " " << calcular_negativa_fraccion << endl;
     } else if (calcular_datos_raiz == 0) {
         double calcular_raiz_cero = -B / (2 * A);
         cout << calcular_raiz_cero << endl;
