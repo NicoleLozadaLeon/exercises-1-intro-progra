@@ -39,10 +39,9 @@ void exercise_2(double A, double B, double C) {
     } else if (calcular_datos_raiz == 0 ) {
         double calcular_raiz_cero = -B / (2 * A);
         cout << calcular_raiz_cero << endl;
-    } else if (calcular_datos_raiz < 0 ) {
+    } else if (A == 0 && B == 0 && C == 0) {
         cout << "";
-    }
-    else;
+    }else;
 }
 
 void exercise_3(int a, int b) {
