@@ -13,7 +13,7 @@ void exercise_1(string s1, string s2, string s3) {
   else if (s2 < s1 && s2 < s3){
     count_short_char = s2;
     cout << count_short_char;
-      }
+    }
   else if (s3 < s1 && s3 < s2) {
     count_short_char = s3;
     cout << count_short_char;
@@ -38,7 +38,7 @@ void exercise_2(double A, double B, double C) {
         cout << calcular_positiva_fraccion << " " << calcular_negativa_fraccion;
     } else if (calcular_datos_raiz == 0) {
         double calcular_raiz_cero = -B / (2 * A);
-        cout << calcular_raiz_cero;
+        cout << calcular_raiz_cero << endl;
     } else;
 }
 
