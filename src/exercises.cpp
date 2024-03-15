@@ -19,7 +19,7 @@ void exercise_1(string s1, string s2, string s3) {
     cout << count_short_char;
   }
   else {
-    cout << "hay palabras iguales" ;
+    cout << s1 ;
   }
 }
   
