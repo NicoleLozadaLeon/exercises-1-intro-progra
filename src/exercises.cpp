@@ -135,8 +135,9 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
   double pi = 3.14;
+  double result;
     if(radio > 0 ) {
-        double result = 4 * pi * radio * radio;
+       result = 4 * pi * r * r;
     cout << result;
     } else{
     cout << " Error: Radius cannot be negative";
