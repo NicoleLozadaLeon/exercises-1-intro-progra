@@ -140,7 +140,7 @@ void exercise_7(double r) {
        result = 4 * pi * r * r;
     cout << result << endl;
     } else{
-    cout << " Error: Radius cannot be negative" << endl;
+    cout << "Radius cannot be negative" << endl;
     }
 }
 
