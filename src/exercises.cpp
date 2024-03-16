@@ -183,7 +183,7 @@ int exercise_10(int a, int b) {
     int digitos;
     int count_digitos = suma;
     while (count_digitos != 0) {
-        digitos++
+        digitos++;
         count_digitos /= 10;
     }
 
