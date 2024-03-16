@@ -60,30 +60,23 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-  double descuento;
-  double costo_total;
-  double costo_sin_descuento_a;
-  double descuento_especial_ab;
+    double descuento;
+    double costo_total;
+    double costo_sin_descuento_a;
+    double descuento_especial_ab;
 
     if (n > a && b > a) {
-        descuento = a * x / 100;
+        descuento = n * x / 100;
         costo_total = n - descuento;
-    cout << costo_total << endl;
+        cout << costo_total << endl;
     }
     else if (n > b && b > a) {
-        descuento = b * y / 100;
+        descuento = n * y / 100;
         costo_total = n - descuento;
     cout << costo_total << endl;
     }
     else if (n < a && n < b) {
         cout << n << endl;
-    }
-    else if (n > a && n > b) {
-        descuento = b * y / 100;
-        costo_sin_descuento_a = n - descuento;
-        descuento_especial_ab = a * x / 100;
-        costo_total = costo_sin_descuento_a - descuento_especial_ab;
-        cout << costo_total << endl;
     }
     else;
 }
