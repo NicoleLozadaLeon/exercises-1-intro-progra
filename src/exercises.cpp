@@ -138,9 +138,9 @@ void exercise_7(double r) {
 double result;
     if(r > 0 ) {
     result = 4 * pi * r * r;
-    cout << result;
+    cout << result << endl;
     }else if (r == 0){
-    cout << r;
+    cout << r << endl;
     } else{
     cout << "Error: Radius cannot be negative" << endl;
     }
