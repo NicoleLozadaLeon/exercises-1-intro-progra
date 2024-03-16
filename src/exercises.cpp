@@ -148,22 +148,21 @@ double result;
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
-  /*long int hour;
-    long int x_hour;
-    long int minutes;
-    long int new_seconds;
+  long int hour;
+  long int x_hour;
+  long int minutes;
+  long int new_seconds;
   
-    if (seconds >= 0) {
-        hour = seconds / 3600;
-        x_hour = seconds % 3600;
-        minutes = x_hour / 60;
-        new_seconds = x_hour % 60;
-        
-        cout  << hour <<  minutes << new_seconds << endl;
-    } else {
-        cout << "Error: Input seconds cannot be negative." << endl; 
+  if (seconds >= 0) {
+    hour = seconds / 3600;
+    x_hour = seconds % 3600;
+    minutes = x_hour / 60;
+    new_seconds = x_hour % 60; 
+    cout << setfill('0') << setw(2) << hour << ":" << setw(2) << minutes << ":" << setw(2) << new_seconds << endl;
+  } else {
+    cout << "Error: Input seconds cannot be negative." << endl; 
     }
-    */
+    
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
