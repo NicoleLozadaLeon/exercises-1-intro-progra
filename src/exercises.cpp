@@ -179,17 +179,15 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
+   
     int suma = a + b;
-    int digitos;
+    int digitos = 0;
     int count_digitos = suma;
     while (count_digitos != 0) {
         digitos++;
         count_digitos /= 10;
     }
-
-    int resultado = digitos * suma;
-
-    cout << resultado << endl;
+    return digitos * suma;
 }
 
 string exercise_11(int number) {
