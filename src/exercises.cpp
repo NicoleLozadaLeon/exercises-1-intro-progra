@@ -92,7 +92,7 @@ void exercise_5(char character) {
     }
      else if (int_character >= 0 && int_character <= 65 ){
         cout << "not an alphabet" << endl;
-    }else
+    }else;
 }
 
 void exercise_6(int number) {
