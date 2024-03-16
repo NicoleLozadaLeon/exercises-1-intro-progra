@@ -212,7 +212,7 @@ void exercise_12(string color1, int numb1,
 
   if (match1) cout << "1" << endl;
   if (match2) cout << "2" << endl;
-  if (match3) cout << "3" << endl
+  if (match3) cout << "3" << endl;
 }
 
 string exercise_13(int age, int years_of_experience) {
