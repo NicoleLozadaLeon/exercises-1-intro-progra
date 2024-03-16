@@ -135,12 +135,14 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
   double pi = 3.14;
-  double result;
+double result;
     if(r > 0 ) {
-       result = 4 * pi * r * r;
-    cout << result << endl;
+    result = 4 * pi * r * r;
+    cout << result;
+    }else if (r == 0){
+    cout << r;
     } else{
-    cout << "Radius cannot be negative" << endl;
+    cout << " Error: Radius cannot be negative";
     }
 }
 
