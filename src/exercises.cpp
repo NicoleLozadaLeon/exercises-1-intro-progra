@@ -26,7 +26,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-     double calcular_datos_raiz = B * B - 4 * A * C;
+    /*/ double calcular_datos_raiz = B * B - 4 * A * C;
     if (A == 0) {
        double calcular_ByC = -C / B;
         cout << calcular_ByC << endl;
@@ -42,7 +42,7 @@ void exercise_2(double A, double B, double C) {
     }  else if (calcular_datos_raiz < 0 ) {
         cout << "";
     }
-    else;
+    else;*/
 
 }
 
@@ -60,22 +60,32 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
- /*     if (n>a && b>a) {
-        descuento = a * X/100;
-        costo_total = costo_total - descuento;
-        cout << costo_total;
+  double descuento;
+  double costo_total;
+  double costo_sin_descuento_a;
+  double descuento_especial_ab;
+
+    if (n > a && b > a) {
+        descuento = a * x / 100;
+        costo_total = n - descuento;
+    cout << costo_total << endl;
     }
-    else if (n>a && b>a) {
-        descuento = b * Y/100;
-        costo_total = costo_total - descuento;
-        cout << costo_total;
+    else if (n > b && b > a) {
+        descuento = b * y / 100;
+        costo_total = n - descuento;
+    cout << costo_total << endl;
     }
-    else if (n>a && n>b && b>a) {
-        descuento = b * Y/100;
-        costo_total = costo_total - descuento;
-        cout << costo_total;
+    else if (n < a && n < b) {
+        cout << n << endl;
     }
-    else;*/
+    else if (n > a && n > b) {
+        descuento = b * y / 100;
+        costo_sin_descuento_a = n - descuento;
+        descuento_especial_ab = a * x / 100;
+        costo_total = costo_sin_descuento_a - descuento_especial_ab;
+        cout << costo_total << endl;
+    }
+    else;
 }
 
 void exercise_5(char character) {
