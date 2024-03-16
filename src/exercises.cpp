@@ -125,7 +125,9 @@ void exercise_6(int number) {
             cout << "Sunday" <<endl;
             break;
     }
- } 
+ } else {
+     cout << "Invalid input" << endl;
+ }
 }
 
 void exercise_7(double r) {
