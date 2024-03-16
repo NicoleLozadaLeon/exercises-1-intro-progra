@@ -142,7 +142,7 @@ double result;
     }else if (r == 0){
     cout << r << endl;
     } else{
-    cout << "Error: Radius cannot be negative" << endl;
+    cout << "Error: Radius cannot be negative." << endl;
     }
 }
 
