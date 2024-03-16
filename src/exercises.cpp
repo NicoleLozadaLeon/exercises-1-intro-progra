@@ -136,7 +136,7 @@ void exercise_7(double r) {
   // TODO: YOUR CODE HERE
   double pi = 3.14;
   double result;
-    if(radio > 0 ) {
+    if(r > 0 ) {
        result = 4 * pi * r * r;
     cout << result;
     } else{
