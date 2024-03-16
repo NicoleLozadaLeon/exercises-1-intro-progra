@@ -169,7 +169,7 @@ void exercise_8(long int seconds) {
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
    if (s1[0] == s5[0]) {
-        cout << s1[0] << s2[0] << s3[0] << s4[0] << s5[0] << endl << "Hemos encontrado algo!"<< endl
+        cout << s1[0] << s2[0] << s3[0] << s4[0] << s5[0] << endl << "Hemos encontrado algo!"<< endl;
     } else {
         cout << s1[0] << s2[0] << s3[0] << s4[0] << s5[0] << endl << "Aun sin suerte" << endl;
     }
