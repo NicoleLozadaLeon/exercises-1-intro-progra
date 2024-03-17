@@ -225,7 +225,7 @@ string exercise_13(int age, int years_of_experience) {
         return "Director de proyecto";
     } else {
         return "Coordinador de proyecto";
-    
+    }
   return "";
 }
 
