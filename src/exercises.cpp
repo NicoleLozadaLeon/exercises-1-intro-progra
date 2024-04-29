@@ -237,7 +237,7 @@ string exercise_14(int number_of_docs) {
     return "Se encontro un documento";
   } else {
     string text = " documentos encontrados";
-    return number_of_docs + text;
+    return to_string(number_of_docs) + text;
   }
   return "";
 }
