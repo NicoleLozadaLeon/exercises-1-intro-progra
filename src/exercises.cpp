@@ -234,7 +234,7 @@ string exercise_14(int number_of_docs) {
   if( number_of_docs == 0){
     return "No se encontraron documentos";
   } else if( number_of_docs == 1){
-    return "Se encontró un documento";
+    return "Se encontro un documento";
   } else {
     return number_of_docs +" documentos encontrados";
   }
