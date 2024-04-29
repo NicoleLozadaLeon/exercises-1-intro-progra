@@ -246,9 +246,9 @@ void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
   cout << "Los valores son: a = " + to_string(a) + " b = " + to_string(b) + " y c = " + to_string(c) << endl;
   cout << "Permutamos: a => b, b => c, c => a" << endl;
-  a = b;
-  b = c;
-  c = a;
+  a = c;
+  b = a;
+  c = b;
   cout << "Los valores despues de la permutacion son: a = " + to_string(a) + " b = " + to_string(b) + " y c = " + to_string(c) << endl;
 
 }
