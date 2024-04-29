@@ -233,7 +233,7 @@ string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
   if( number_of_docs == 0){
     return "No se encontraron documentos"
-  } else if( number_of_docs == 0){
+  } else if( number_of_docs == 1){
     return "Se encontró un documento"
   } else {
     string respuesta = " documentos encontrados."s;
