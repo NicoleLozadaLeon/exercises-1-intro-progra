@@ -255,35 +255,38 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
-  if (debut < 0 && debut > 24 || fin < 0 && fin > 24) {
-    cout << "Las horas deben estar entre 0 y 24!" << endl;
+  if ((debut < 0 || debut > 24) || (fin < 0 || fin > 24)) {
+        cout << "Las horas deben estar entre 0 y 24!" << endl;
+        return;
     } else if (debut == fin) {
-    cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+        cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+        return;
     } else if (debut > fin) {
-    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+        cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+        return;
     }
-    int c_total = 0;
-    int c_bajo = 1;
-    int c_alto = 2;
-    int h_bajo = 0;
-    int h_alto = 0;
-    for (int hora = debut; hora < fin; hora++) {
-        if ((hora >= 0 && hora < 7) || (hora >= 17 && hora < 24)) {
-            c_total += c_bajo; 
-            ++h_bajo;
-        } else {
-            c_total += c_alto; 
-            ++h_alto;
-        }
+    int total = 0;
+    int costo_bajo = 1;
+    int costo_alto = 2;
+    int horas_bajo = 0;
+    int horas_alto = 0;
+    for (int hora = debut; hora < fin; ++hora) {
+    if ((hora >= 0 && hora < 7) || (hora >= 17 && hora < 24)) {
+      total += costo_bajo;
+      ++horas_bajo;
+    } else {
+      total += costo_alto;
+      ++horas_alto;
+      }
     }
-    if (h_bajo > 0) {
     cout << "Haz alquilado una bicicleta por" << endl;
-    cout << h_bajo << " hora(s) con el tarifario de " << c_bajo << " boliviano(s)" << endl;
-    if (h_alto > 0) {
-    cout << h_alto << " hora(s) con el tarifario de " << c_alto << " boliviano(s)" << endl;
+    if (horas_bajo > 0) {
+        cout << horas_bajo << " hora(s) con el tarifario de " << costo_bajo << " boliviano(s)" << endl;
     }
-    cout << "El monto total a pagar es de " << c_total << " boliviano(s)." << endl;
+    if (horas_alto > 0) {
+    cout << horas_alto << " hora(s) con el tarifario de " << costo_alto << " boliviano(s)" << endl;
     }
+    cout << "El monto total a pagar es de " << total << " boliviano(s)." << endl;
     
     
 }
