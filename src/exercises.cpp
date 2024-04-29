@@ -26,7 +26,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-     double calcular_datos_raiz = B * B - 4 * A * C;
+     double calcular_raiz = B * B - 4 * A * C;
     if (A == 0 && B > 0) {
        double calcular_ByC = -C / B;
         cout << calcular_ByC << endl;
@@ -34,14 +34,14 @@ void exercise_2(double A, double B, double C) {
     }else if (A== 0 && B == 0){
         cout <<"";
     }
-    else if ( calcular_datos_raiz > 0 ) {
+    else if ( calcular_raiz > 0 ) {
         double calcular_positiva_fraccion = (-B + sqrt(calcular_datos_raiz)) / (2 * A);
         double calcular_negativa_fraccion = (-B - sqrt(calcular_datos_raiz)) / (2 * A);
         cout << calcular_positiva_fraccion << " " << calcular_negativa_fraccion << endl;
-    } else if (calcular_datos_raiz == 0 ) {
+    } else if (calcular_raiz == 0 ) {
         double calcular_raiz_cero = -B / (2 * A);
         cout << calcular_raiz_cero << endl;
-    }  else if (calcular_datos_raiz < 0 ) {
+    }  else if (calcular_raiz < 0 ) {
         cout << "";
     }
     else;
