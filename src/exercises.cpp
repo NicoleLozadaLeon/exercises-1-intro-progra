@@ -282,7 +282,7 @@ void exercise_16(int debut, int fin) {
         }
     }
     if (h_bajo > 0) {
-    cout << "Has alquilado una bicicleta por" << endl;
+    cout << "Haz alquilado una bicicleta por" << endl;
     cout << h_bajo << " hora(s) con el tarifario de " << c_bajo << " boliviano(s)" << endl;
     if (h_alto > 0) {
     cout << h_alto << " hora(s) con el tarifario de " << c_alto << " boliviano(s)" << endl;
