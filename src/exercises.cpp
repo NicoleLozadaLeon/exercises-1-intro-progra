@@ -238,7 +238,7 @@ string exercise_14(int number_of_docs) {
   } else {
     string respuesta = " documentos encontrados."s;
     string number = stoi(number_of_docs);
-    string result = number_of_docs + respuesta;
+    string result = number + respuesta;
     return result;
   }
   return "";
