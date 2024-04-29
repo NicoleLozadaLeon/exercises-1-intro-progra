@@ -35,9 +35,9 @@ void exercise_2(double A, double B, double C) {
         cout <<"";
     }
     else if ( calcular_raiz > 0 ) {
-        double calcular_positiva_fraccion = (-B + sqrt(calcular_datos_raiz)) / (2 * A);
-        double calcular_negativa_fraccion = (-B - sqrt(calcular_datos_raiz)) / (2 * A);
-        cout << calcular_positiva_fraccion << " " << calcular_negativa_fraccion << endl;
+        double c_pos_fraccion = (-B + sqrt(calcular_raiz)) / (2 * A);
+        double c_neg_fraccion = (-B - sqrt(calcular_raiz)) / (2 * A);
+        cout << c_pos_fraccion << " " << calcular_neg_fraccion << endl;
     } else if (calcular_raiz == 0 ) {
         double calcular_raiz_cero = -B / (2 * A);
         cout << calcular_raiz_cero << endl;
