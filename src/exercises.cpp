@@ -251,7 +251,7 @@ void exercise_15(int a, int b, int c) {
   a = c;
   b = temp_a;
   c = temp_b;
-  cout << "Los valores despues de la permutacion son: a = " + to_string(a) + " b = " + to_string(b) + " y c = " + to_string(c) << endl;
+  cout << "Los valores despues de la permutacion son: a = " + to_string(a) + " b = " + to_string(b) + " c = " + to_string(c) << endl;
 
 }
 
