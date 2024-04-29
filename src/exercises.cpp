@@ -236,10 +236,7 @@ string exercise_14(int number_of_docs) {
   } else if( number_of_docs == 1){
     return "Se encontró un documento";
   } else {
-    string respuesta = " documentos encontrados."s;
-    string number = stoi(number_of_docs);
-    string result = number + respuesta;
-    return result;
+    return number_of_docs +" documentos encontrados";
   }
   return "";
 }
