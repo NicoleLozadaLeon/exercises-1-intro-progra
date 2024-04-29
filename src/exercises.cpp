@@ -255,24 +255,21 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
+  if (debut < 0 || debut > 24 || fin < 0 || fin > 24) {
+    cout << "Las horas deben estar entre 0 y 24!" << endl;
+    }
+    if (debut == fin) {
+    cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+    }
+    if (debut > fin) {
+    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+    }
     int c_total = 0;
     int c_bajo = 1;
     int c_alto = 2;
     int h_bajo = 0;
     int h_alto = 0;
     for (int hora = debut; hora < fin; hora++) {
-    if (debut < 0 || debut > 24 || fin < 0 || fin > 24) {
-    cout << "Las horas deben estar entre 0 y 24!" << endl;
-    break;
-    }
-    if (debut == fin) {
-    cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
-    break;
-    }
-    if (debut > fin) {
-    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
-    break;
-    }
         if ((hora >= 0 && hora < 7) || (hora >= 17 && hora < 24)) {
             c_total += c_bajo; 
             ++h_bajo;
