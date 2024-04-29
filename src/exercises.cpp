@@ -237,8 +237,9 @@ string exercise_14(int number_of_docs) {
     return "Se encontró un documento";
   } else {
     string respuesta = " documentos encontrados."s;
+    string number = stoi(number_of_docs);
     string result = number_of_docs + respuesta;
-    cout << result << endl;
+    return result;
   }
   return "";
 }
